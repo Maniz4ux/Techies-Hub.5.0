@@ -1,0 +1,193 @@
+
+<html>
+    <head>
+        <title></title>
+    </head>
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'roboto', sans-serif;
+}
+
+.navbar{
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #f5f5f5;
+    z-index: 9;
+}
+
+
+.nav{
+    padding: 10px 10vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.brand-logo{
+    height: 60px;
+}
+
+.nav-items{
+    display: flex;
+    align-items: center;
+}
+
+.search{
+    width: 500px;
+    display: flex;
+}
+
+.search-box{
+    width: 80%;
+    height: 40px;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border: 1px solid #d1d1d1;
+    text-transform: capitalize;
+    background: none;
+    color: #a9a9a9;
+    outline: none;
+}
+
+.search-btn{
+    width: 20%;
+    height: 40px;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: #383838;
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 15px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.search-box::placeholder{
+    color: #a9a9a9;
+}
+
+.nav-items a{
+    margin-left: 20px;
+}
+
+.nav-items a img{
+    width: 30px;
+}
+.links-container{
+    width: 100%;
+    display: flex;
+    padding: 10px 10vw;
+    justify-content: right;
+    list-style: none;
+    border-top: 1px solid #d1d1d1;
+    background-color: aqua;
+}
+
+.link{
+    text-transform: capitalize;
+    padding: 0 10px;
+    margin: 0 5px;
+    text-decoration: none;
+    color: #383838;
+    opacity: 0.5;
+    transition: .5s;
+}
+
+.link:hover{
+    opacity: 1;
+}
+.hero-section{
+    width: 100%;
+    height: calc(100vh - 120px);
+    background-image: url('');
+
+    background-size:50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-section .logo{
+    height: 150px;
+    display: block;
+    margin: auto;
+}
+
+.hero-section .sub-heading{
+    margin-top: 10px;
+    text-align: center;
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 35px;
+    font-weight: 300;
+}
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.content img:hover{
+    transform: scale(1.3);
+    transition: 0.5s all ease-in-out;
+}
+
+    </style>
+    
+
+<body  style=background-color:rgba(182, 176, 176, 0.438) ><nav class="navbar">
+    <div class="nav">
+        <img  src="https://cdn.pixabay.com/photo/2016/10/18/19/20/anatomy-1751138__340.png" width="100" height="300" class="brand-logo" alt=""><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;"><b><h1>UStudy</h1></marquee></b></span>
+        <div class="nav-items">
+            <div class="search">
+                <input type="text" class="search-box" placeholder="search brand, product">
+                <button class="search-btn">search</button>
+            </div>
+            <a href="#"><img src="https://th.bing.com/th/id/OIP.4J8yA-cLfqlfIj3emzP_VwHaHa?w=194&h=194&c=7&r=0&o=5&dpr=1.25&pid=1.7" alt=""></a>
+            <a href="#"><img src="https://th.bing.com/th/id/OIP.12kw3YYls-sVqk4mo4szXwHaHa?w=172&h=180&c=7&r=0&o=5&dpr=1.25&pid=1.7" alt=""></a>
+        </div>
+    </div>
+    </nav>
+    <h3>“Health is a state of complete physical, mental, and social well-being and not merely the absence of disease or infirmity.”</h3>
+    
+    <ul class="links-container">
+        <li class="link-item"><a style="color:red" href="#home"link">Home</a></li>
+        <li class="link-item"><a style="color:red" href="FaQ.html" class="link">FAQ</a></li>
+        <li class="link-item"><a style="color:red" href="details.html" class="link">DETAILS</a></li>
+        <li class="link-item"><a style="color:red" href="#" class="link">CONTACT US</a></li>
+    </ul>
+   </body>    
+
+
+   <header class="hero-section">
+    <div class="content">
+        <div class="row">
+            <div class="column">
+              <a href="physical.html"><img src="https://media.istockphoto.com/photos/asian-doctor-is-using-a-stethoscope-listen-to-the-heartbeat-of-the-picture-id1126835434?k=20&m=1126835434&s=612x612&w=0&h=RkUMcG_ghU4k3lSexi66WjbqlXfJt-QmjjjG7wFK-xU=" alt="Snow" style="width:100%"></a><c><h3><b>Physical Health</b></h3></c>
+              <p>Physical health is the state of being free from illness or injury. It can cover a wide range of areas including healthy diet, healthy weight, dental health, personal hygiene and sleep. Physical health is vital for overall well-being.</p>
+            </div>
+            <div class="column">
+              <a href="https://www.publichealthontario.ca/en/health-topics/environmental-occupational-health/health-hazards/biological#:~:text=Biological%20health%20hazards%20include%20bacteria,parasites%20and%20moulds%20or%20fungi.&text=They%20can%20cause%20illness%20such,through%20food%2C%20air%20or%20water"><img src="https://media.istockphoto.com/photos/medical-technology-concept-electronic-medical-record-picture-id872676342?k=20&m=872676342&s=612x612&w=0&h=QxMbTx7XaIDF129YH83ETRwytCzp1lTPlPkeWcbTjOs=" alt="Forest" style="width:100%"></a><c><h3><b>Biological Health</b></h3></c><p>Biological health hazards include bacteria, viruses, parasites and moulds or fungi. ... We provide expertise and resources on monitoring and controlling biological hazards that are transmitted through food, air or water.</p>
+            </div>
+            <div class="column">
+              <a href="mental.html"><img src="https://media.istockphoto.com/photos/mental-health-brain-torn-paper-concept-picture-id1083762592?k=20&m=1083762592&s=612x612&w=0&h=FJK2oxfM9yAkEDj4C74F74VTm16YdS-x8rYGt_ocStg=" alt="Mountains" style="width:100%"></a><c><h3><b>Mental Health</b></h3></c><p>Mental health includes our emotional, psychological, and social well-being. It affects how we think, feel, and act. It also helps determine how we handle stress, relate to others, and make choices. Mental health is important at every stage of life, from childhood and adolescence through adulthood.</p>
+            </div>
+          </div>
+    </div>
+</header>
+<h3></h3>
+    
+</html>
